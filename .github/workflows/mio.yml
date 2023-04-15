@@ -1,9 +1,6 @@
 name: Check the pull requests
   push:
     branches: [main]
-  pull_request_target:
-    branches: [ "main" ]
-    types: [opened, reopened]
 jobs:
   build:
     timeout-minutes: 1
